@@ -1,7 +1,11 @@
+/*-------------------- ESTILOS GENERALES --------------------*/
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 5%;
 }
 
 a{
@@ -13,7 +17,53 @@ ul, ol{
     list-style: none;
 }
 
+img{
+    display: block;
+    max-width: 100%;
+}
+
+/*--------------------- VARIABLES --------------------*/
+
 :root{
-    --color-rosa: #f06292;
-    --color-verde: #64b5f6;
+    --color-rosa: #FF3399;
+    --color-verde: #51AD65;
+}
+
+/*-------------------- FUENTES --------------------*/
+
+@font-face {
+    font-family: "Poppins Thin";
+    src: url("../fonts/Poppins-Thin.ttf");
+}
+@font-face {
+    font-family: "Poppins ExtraLight";
+    src: url("../fonts/Poppins-ExtraLight.ttf");
+}
+@font-face {
+    font-family: "Poppins Light";
+    src: url("../fonts/Poppins-Light.ttf");
+}
+@font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins-Regular.ttf");
+}
+@font-face {
+    font-family: "Poppins Medium";
+    src: url("../fonts/Poppins-Medium.ttf");
+}
+@font-face {
+    font-family: "Poppins SemiBold";
+    src: url("../fonts/Poppins-SemiBold.ttf");
+}
+@font-face {
+    font-family: "Poppins Bold";
+    src: url("../fonts/Poppins-Bold.ttf");
+}
+@font-face {
+    font-family: "Poppins ExtraBold";
+    src: url("../fonts/Poppins-ExtraBold.ttf");
+}
+@font-face {
+    font-family: "Poppins Black";
+    src: url("../fonts/Poppins-Black.ttf");
 }
