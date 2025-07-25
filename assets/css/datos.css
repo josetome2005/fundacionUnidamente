@@ -1,0 +1,116 @@
+.datos{
+    width: 100%;
+    padding: 80px 90px ;
+}
+
+.datos_titulo{
+    font-family: "Poppins ExtraLight";
+    font-size: 30px;
+    color: #111111;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.datos hr{
+    width: 64px;
+    border: 1px solid var(--color-verde);
+    margin: 0 auto 30px auto;
+}
+
+/*///////////////////////////////////////////////////////////////////////////*/
+
+.subtitulo_datos_internacionales{
+    width: 45%;
+    margin: 0 auto 100px auto;
+    font-family: "Poppins Light";
+    font-size: 15px;
+    letter-spacing: 0.7px;
+    text-align: center;
+}
+
+.datos_container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.dato_internacional_item{
+    width: 21%;
+}
+
+.dato_internacional_item p{
+    font-family: "Poppins Light";
+    font-size: 14px;
+    letter-spacing: 0.7px;
+    line-height: 1.6;
+    text-align: center;
+    color: #111111;
+}
+
+.dato_internacional_item img, .dato_nacional_item img{
+    margin: 0 auto;
+    width: 76px;
+    margin-bottom: 30px;
+}
+
+.dato_internacional_item_1{
+    margin-top: 100px;
+    margin-left: 30px;
+}
+
+.dato_internacional_item_4{
+    margin-top: 100px;
+    margin-right: 30px;
+}
+
+/*///////////////////////////////////////////////////////////////////////////*/
+
+.subtitulo_datos_nacionales{
+    display: block;
+    font-family: "Poppins Light";
+    color: #111111;
+    font-size: 18px;
+    letter-spacing: 0.9px;
+    text-align: center;
+    margin-bottom: 70px;
+    text-align: center;
+    margin-top: -10px;
+}
+
+.datos_container_nacionales{
+    justify-content: space-around;
+}
+
+.dato_nacional_item{
+    width: 29%;
+}
+
+.dato_nacional_item img{
+    margin-bottom: 10px;
+}
+
+.dato_nacional_item span{
+    display: block;
+    font-family: "Poppins Bold";
+    font-size: 18px;
+    letter-spacing: 0.9px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.dato_nacional_item p{
+    font-family: "Poppins Light";
+    font-size: 16px;
+    letter-spacing: 0.8px;
+    line-height: 1.6;
+    text-align: center;
+    color: #111111;
+}
+
+.dato_nacional_item_1, .dato_nacional_item_3{
+    margin-top: 40px;
+    width: 25%;
+}

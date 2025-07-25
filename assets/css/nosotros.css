@@ -1,0 +1,82 @@
+.nosotros{
+    background-color: #ffffff;
+    width: 100%;
+    padding: 0px 85px;
+    padding-bottom: 70px;
+}
+
+.nosotros_titulo{
+    font-family: "Poppins ExtraLight";
+    font-size: 42px;
+    letter-spacing: 2.1px;
+    color: #111111;
+    margin-bottom: 7px;
+    text-align: center;
+}
+
+.nosotros_titulo_linea{
+    margin: 0 auto;
+    width: 80px;
+    border: 1px solid var(--color-verde);
+    margin-bottom: 100px;
+}
+
+/*//////////////////////////////////////////////////////////////////*/
+
+.nosotros_section{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 110px;
+}
+
+.nosotros_section_text{
+    width: 50%;
+    padding: 0 20px;
+}
+
+.nosotros_section_text h3{
+    font-family: "Poppins Light";
+    font-size: 32px;
+    color: #222222;
+    letter-spacing: 1.6px;
+    margin-bottom: 5px;
+}
+
+.nosotros_section_text hr{
+    width: 60px;
+    border: 1px solid var(--color-verde);
+    margin-bottom: 30px;
+}
+
+.nosotros_section_text .nosotros_section_text_linea{
+    margin-bottom: 80px;
+}
+
+.nosotros_section_text p{
+    font-family: "Poppins Light";
+    font-size: 16px;
+    color: #333333;
+    letter-spacing: 1.2px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.nosotros_section_img{
+    width: 380px;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.nosotros_section_img_mision{
+    background-image: url("../img/mision_img.png");
+}
+
+.nosotros_section_img_vision{
+    background-image: url("../img/vision_img.png");
+}

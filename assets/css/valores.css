@@ -1,0 +1,68 @@
+.valores{
+    height: 100vh;
+    width: 100%;
+    padding: 150px 110px;
+}
+
+.valores h3{
+    font-family: "Poppins ExtraLight";
+    color: #222;
+    font-size: 35px;
+    letter-spacing: 1.7px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.valores hr{
+    width: 60px;
+    margin: 0 auto;
+    border: 1px solid var(--color-verde);
+    margin-bottom: 50px;
+}
+
+.valores_container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.valor_item{
+    width: 15%;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 4px 5px 10px rgba(0,0,0,0.3);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.valor_item:hover img{
+    transform: scale(1.15);
+}
+
+.valor_item:hover{
+    box-shadow: 8px 10px 15px rgba(0,0,0,0.35);
+}
+
+.valor_item:nth-child(even){
+    border: 3px solid var(--color-verde);
+}
+
+.valor_item:nth-child(odd){
+    border: 3px solid var(--color-rosa);
+}
+
+.valor_item img{
+    width: 75px;
+    margin: 0 auto 20px auto;
+    transition: all 0.3s ease;
+}
+
+.valor_item span{
+    display: block;
+    font-family: "Poppins Light";
+    font-size: 16px;
+    letter-spacing: 0.8px;
+    color: #111111;
+    text-align: center;
+}
