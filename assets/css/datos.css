@@ -114,3 +114,81 @@
     margin-top: 40px;
     width: 25%;
 }
+
+/*///////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////// RESPONSIVE /////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////*/
+
+@media (max-width: 700px) {
+
+    .datos{
+        width: 100%;
+        padding: 60px 25px;
+    }
+
+    .datos_titulo{
+        font-size: 23px;
+        letter-spacing: 1px;
+    }
+
+    .datos hr{
+        width: 50px;
+        margin: 0 auto 20px auto;
+    }
+
+    /*///////////////////////////////////////////////////////////////////////////*/
+
+    .subtitulo_datos_internacionales{
+        width: 90%;
+        margin: 0 auto 60px auto;
+        font-size: 13px;
+        letter-spacing: 0.6px;
+    }
+
+    .datos_container{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .dato_internacional_item{
+        width: 70%;
+        margin: 0 auto 50px auto;
+    }
+
+    .dato_internacional_item p{
+        font-size: 11px;
+        letter-spacing: 0.6px;
+    }
+
+    .dato_internacional_item img, .dato_nacional_item img{
+        width: 40px;
+        margin-bottom: 20px;
+    }
+
+
+    /*///////////////////////////////////////////////////////////////////////////*/
+
+    .subtitulo_datos_nacionales{
+        font-size: 14px;
+        letter-spacing: 0.7px;
+        margin-bottom: 15px;
+        margin-top: -10px;
+    }
+
+    .dato_nacional_item{
+        width: 75%;
+        margin-bottom: 50px;
+    }
+
+    .dato_nacional_item span{
+        font-size: 16px;
+        letter-spacing: 0.8px;
+        margin-bottom: 10px;
+    }
+
+    .dato_nacional_item p{
+        font-size: 13px;
+        letter-spacing: 0.6px;
+    }
+
+}

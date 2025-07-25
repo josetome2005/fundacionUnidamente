@@ -93,3 +93,75 @@
     padding: 10px;
     margin-left: 20px;
 }
+
+/*///////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////// RESPONSIVE /////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////*/
+
+@media (max-width: 700px) {
+
+    .contacto{
+        width: 100%;
+        padding: 60px 25px;
+    }
+
+    .contacto_titulo{
+        font-size: 25px;
+        letter-spacing: 1.2px;
+    }
+
+    .contacto_subtitulo{
+        font-size: 13px;
+        letter-spacing: 0.6px;
+        margin-bottom: 50px;
+    }
+
+    .contacto hr{
+        width: 40px;
+        margin: 0 auto 15px auto;
+    }
+
+    /*///////////////////////////////////////////////////////////////////*/
+
+    .contacto_container{
+        padding: 30px 5px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .contacto_item{
+        width: 70%;
+        border: none;
+        margin: 0 0 40px 0;
+        padding: 0;
+    }
+
+    .contenido_item_1, .contenido_item_2{
+        border-bottom: 1px solid;
+    }
+
+    .contacto_item img{
+        display: block;
+        width: 50px;
+        height: auto;
+    }
+
+    .contacto_item_nombre{
+        font-size: 14px;
+        letter-spacing: 0.7px;
+    }
+
+    .contacto_item_info{
+        font-family: "Poppins Medium";
+        font-size: 12px;
+        letter-spacing: 0.6px;
+    }
+
+    .contacto_item_2 .contacto_item_info{
+        font-size: 9px;
+        letter-spacing: 0.6px;
+    }
+
+
+
+}

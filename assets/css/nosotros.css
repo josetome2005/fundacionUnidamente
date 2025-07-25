@@ -80,3 +80,76 @@
 .nosotros_section_img_vision{
     background-image: url("../img/vision_img.png");
 }
+
+
+/*///////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////// RESPONSIVE /////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////*/
+
+@media (max-width: 700px) {
+
+    .nosotros{
+        padding: 0px 25px;
+        padding-bottom: 40px;
+    }
+
+    .nosotros_titulo{
+        font-size: 27px;
+        letter-spacing: 1.5px;
+        margin-bottom: 5px;
+    }
+
+    .nosotros_titulo_linea{
+        width: 50px;
+        margin-bottom: 70px;
+    }
+
+    /*//////////////////////////////////////////////////////////////////*/
+
+    .nosotros_section{
+        flex-wrap: wrap;
+        margin-bottom: 0;
+    }
+
+    .nosotros_section_text{
+        width: 95%;
+        margin: 0 auto 50px auto;
+        padding: 0;
+    }
+
+    .nosotros_section_text h3{
+        font-size: 22px;
+        letter-spacing: 1.1px;
+    }
+
+    .nosotros_section_text hr{
+        width: 45px;
+        margin-bottom: 20px;
+    }
+
+    .nosotros_section_text .nosotros_section_text_linea{
+        margin-bottom: 20px;
+    }
+
+    .nosotros_section_text p{
+        font-size: 13px;
+        letter-spacing: 0.6px;
+        line-height: 1.6;
+        margin-bottom: 15px;
+    }
+
+    .nosotros_section_img{
+        width: 95%;
+        height: 250px;
+        margin-bottom: 50px;
+    }
+
+    .nosotros_section_img_mision{
+        order: 2;
+    }
+    .nosotros_section_text_mision{
+        order: 1;
+    }
+
+
+}

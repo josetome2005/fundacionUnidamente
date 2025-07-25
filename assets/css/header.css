@@ -10,6 +10,10 @@ header{
     width: 7%;
 }
 
+.img_icono_menu{
+    display: none;
+}
+
 /*-------------------------------------------*/
 
 .header_nav{
@@ -35,4 +39,57 @@ header{
 .header_nav_lista li a:hover{
     color: var(--color-rosa);
     border-bottom: 1px solid var(--color-rosa);
+}
+
+/*///////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////// RESPONSIVE /////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////*/
+
+@media (max-width: 700px) {
+
+    header{
+        padding: 10px 30px;
+        flex-wrap: wrap;
+    }
+
+    .header_logo_container{
+        width: 20%;
+    }
+
+    .img_icono_menu{
+        position: relative;
+        display: block;
+        z-index: 10000000;
+        width: 25px;
+    }
+
+    /*-------------------------------------------*/
+
+    .header_nav{
+        margin-left: -100%;
+        position: absolute;
+        height: 150vh;
+        width: 100vw;
+        top: 0;
+        left: 0;
+        z-index: 100000;
+        margin-right: 0;
+        padding-top: 70px;
+        background-color: #ffffff;
+        transition: all 0.5s ease;
+    }
+
+    .header_nav_lista{
+        display: block;
+    }
+
+    .header_nav_lista li a{
+        display: block;
+        width: 100%;
+        padding: 15px 20px;
+        text-align: center;
+        font-size: 13px;
+    }
+
+
 }

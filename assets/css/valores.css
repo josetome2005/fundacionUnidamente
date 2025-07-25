@@ -66,3 +66,49 @@
     color: #111111;
     text-align: center;
 }
+
+/*///////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////// RESPONSIVE /////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////*/
+
+@media (max-width: 700px) {
+
+    .valores{
+        padding: 70px 25px;
+        height: auto;
+    }
+
+    .valores h3{
+        font-size: 25px;
+        letter-spacing: 1.2px;
+    }
+
+    .valores hr{
+        width: 50px;
+        margin-bottom: 30px;
+    }
+
+    .valores_container{
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .valor_item{
+        width: 51%;
+        padding: 30px 20px;
+        margin-bottom: 50px;
+    }
+
+    .valor_item img{
+        width: 50px;
+        margin: 0 auto 15px auto;
+    }
+
+    .valor_item span{
+        font-size: 14px;
+        letter-spacing: 0.7px;
+    }
+
+
+}

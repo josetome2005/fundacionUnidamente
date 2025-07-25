@@ -110,3 +110,85 @@
     line-height: 1.6;
     text-align: justify;
 }
+
+/*///////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////// RESPONSIVE /////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////*/
+
+@media (max-width: 700px) {
+
+    .testimonios{
+        padding: 40px 25px;
+    }
+
+    .testimonios_titulo{
+        font-size: 25px;
+        letter-spacing: 1.2px;
+    }
+
+    .testimonios hr{
+        width: 50px;
+        margin: 0 auto 15px auto;
+    }
+
+    .testimonios_subtitulo{
+        font-size: 14px;
+        letter-spacing: 0.7px;
+        margin-bottom: 30px;
+    }
+
+    /*//////////////////////////////////////////////////////////*/
+
+    .testimonios_container{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .testimonio_item{
+        width: 90%;
+        padding: 30px;
+        margin-bottom: 50px;
+    }
+
+    /*---------------------*/
+
+    .testimonio_item_logo{
+        width: 50px;
+        height: 50px;
+        margin: 0 auto 15px auto;
+        font-size: 22px;
+    }
+
+    /*---------------------*/
+
+    .testimonio_item_usuario{
+        font-size: 14px;
+        letter-spacing: 0.7px;
+        margin-bottom: 15px;
+    } 
+
+    .testimonio_item_2 .testimonio_item_usuario{
+        font-size: 12px;
+    }
+
+    /*---------------------*/
+
+    .contenedor_img_testimonio{
+        width: 30px;
+        height: 30px;
+    }
+
+    .contenedor_img_testimonio img{
+        width: 18px;
+    }
+
+    /*---------------------*/
+
+    .testimonio_item_parrafo{
+        font-size: 10px;
+        letter-spacing: 0.5px;
+    }
+
+
+
+}

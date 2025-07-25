@@ -36,3 +36,53 @@
     line-height: 1.6;
     text-align: justify;
 }
+
+.mensaje_junto_responsive{
+    display: none;
+}
+
+/*///////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////// RESPONSIVE /////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////*/
+
+@media (max-width: 700px) {
+
+    .mensaje{
+        width: 100%;
+        padding: 50px 25px;
+    }
+
+    .mensaje h3{
+        font-size: 18px;
+        letter-spacing: 1px;
+        width: 95%;
+    }
+
+    .mensaje hr{
+        width: 50px;
+        margin: 0 auto 25px auto;
+    }
+
+    .mensaje_text_container{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .mensaje_text_container p{
+        width: 90%;
+        margin:  0 auto;
+        font-size: 12px;
+        letter-spacing: 0.6px;
+    }
+
+    .mensaje_separado{
+        display: none;
+    }
+
+    .mensaje_junto_responsive{
+        display: block;
+    }
+
+
+
+}

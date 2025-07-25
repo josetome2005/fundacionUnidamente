@@ -49,3 +49,49 @@
     padding: 0 0 10px 0;
     text-transform: uppercase;
 }
+
+/*///////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////// RESPONSIVE /////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////*/
+
+@media (max-width: 700px) {
+
+    .convenios{
+        padding: 50px 25px;
+    }
+
+    .convenios h3 {
+        font-size: 18px;
+        letter-spacing: 1.1px;
+    }
+
+    .convenios hr{
+        width: 70px;
+        margin: 10px auto 40px auto;
+    }
+
+    .convenios_nacionales_img {
+        width: 97%;
+        margin: 0 auto 70px auto;
+    }
+
+    /*////////////////////////////////////////////////////////*/
+
+    .convenios_internacionales_container{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .contenedor_internacional_item {
+        margin-bottom: 50px;
+    }
+
+    .contenedor_internacional_item span{
+        font-size: 16px;
+        letter-spacing: 0.8px;
+        margin-bottom: 0px;
+        padding: 0 0 5px 0;
+    }
+
+
+}

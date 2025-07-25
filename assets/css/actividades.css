@@ -75,6 +75,58 @@
     letter-spacing: 0.5px;
     color: #111111;
     text-align: center;
-    
+}
+
+/*///////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////// RESPONSIVE /////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////*/
+
+@media (max-width: 700px) {
+
+    .actividades{
+        padding: 60px 25px 0 25px ;
+    }
+
+    .actividades h3{
+        font-family: "Poppins Light";
+        font-size: 25px;
+        letter-spacing: 1.3px;
+    }
+
+    .actividades hr{
+        margin: 0 auto 20px auto;
+        width: 50px;
+    }
+
+    .actividades p{
+        width: 95%;
+        margin: 0 auto 50px auto;
+        font-size: 13px;
+        letter-spacing: 0.6px;   
+    }
+
+    /*////////////////////////////////////////////////*/
+
+    .actividades_container{
+        justify-content: center;
+
+    }
+
+    .actividad_item{
+        width: 60%;
+        height: 170px;
+        padding: 30px 20px;
+        margin-bottom: 50px;
+    }
+
+    .actividad_item img{
+        width: 50px;
+        margin-bottom: 15px;
+    }
+
+    .actividad_item span{
+        font-size: 11px;
+    }
+        
 }
 
