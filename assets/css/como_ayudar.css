@@ -1,0 +1,89 @@
+.como_ayudar{
+    width: 100%;
+    background-color: var(--color-verde);
+    padding: 80px 100px;
+}
+
+.como_ayudar_titulo{
+    font-family: "Poppins Light";
+    font-size: 35px;
+    letter-spacing: 1.7px;
+    color: #222222;
+    text-align: center;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.como_ayudar_subtitulo{
+    display: block;
+    font-family: "Poppins Light";
+    font-size: 16px;
+    letter-spacing: 0.8px;
+    color: #333333;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.como_ayudar hr{
+    width: 50px;
+    border: 2px solid #222222;
+    margin: 0 auto 30px auto;
+}
+
+.como_ayudar_containter{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.como_ayudar_item{
+    width: 175px;
+    height: 175px;
+    background-color: #ffffff;
+    border-radius: 20%;
+    padding: 20px;
+    box-shadow: 4px 5px 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.como_ayudar_item:hover{
+    transform: scale(1.05);
+    box-shadow: 8px 10px 15px rgba(0, 0, 0, 0.3);
+
+}
+
+.como_ayudar_item img{
+    width: 75px;
+    margin: 0 auto 20px auto;
+}
+
+.como_ayudar_item span{
+    display: block;
+    font-family: "Poppins Light";
+    font-size: 18px;
+    letter-spacing: 0.9px;
+    color: #333333;
+    text-align: center;
+}
+
+.como_ayudar a{
+    display: block;
+    margin: 100px auto 0 auto;
+    width: 200px;
+    padding: 12px 0;
+    text-align: center;
+    font-family: "Poppins Light";
+    font-size: 14px;
+    letter-spacing: 0.7px;
+    border-radius: 10px;
+    border: 2px solid #222222;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.como_ayudar a:hover{
+    background-color: #222222;
+    color: #ffffff;
+
+}

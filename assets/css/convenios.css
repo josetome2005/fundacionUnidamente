@@ -1,0 +1,51 @@
+.convenios{
+    width: 100%;
+    padding: 100px;
+}
+
+.convenios h3 {
+    font-family: "Poppins Light";
+    font-size: 28px;
+    letter-spacing: 1.4px;
+    color: #222222;
+    text-align: center;
+}
+
+.convenios hr{
+    width: 100px;
+    border: 1px solid var(--color-verde);
+    margin: 10px auto 50px auto;
+}
+
+.convenios_nacionales_img {
+    width: 80%;
+    margin: 0 auto 100px auto;
+}
+
+/*////////////////////////////////////////////////////////*/
+
+.convenios_internacionales_container{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.convenios_internacionales_img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.contenedor_internacional_item span{
+    font-family: "Poppins Semibold";
+    font-size: 18px;
+    letter-spacing: 0.9px;
+    color: #333333;
+    margin-bottom: 10px;
+    display: block;
+    text-align: center;
+    padding: 0 0 10px 0;
+    text-transform: uppercase;
+}
