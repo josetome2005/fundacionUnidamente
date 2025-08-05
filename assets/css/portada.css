@@ -25,11 +25,12 @@
 
 .portada_titulo{
     font-family: "Poppins Bold";
-    font-size: 43px;
+    font-size: 45px;
     color: #333333;
     letter-spacing: 4px;
+    text-transform: uppercase;
 }
-.portada_titulo span{
+.portada_titulo span span{
     color: var(--color-rosa);
 }
 
@@ -61,6 +62,10 @@
     letter-spacing: 1px;
     line-height: 1.6;
     margin-bottom: 60px;
+}
+
+.portada_parrafo strong{
+    text-transform: uppercase;
 }
 
 .portada_cta{

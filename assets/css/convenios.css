@@ -17,18 +17,13 @@
     margin: 10px auto 50px auto;
 }
 
-.convenios_nacionales_img {
-    width: 80%;
-    margin: 0 auto 100px auto;
-}
-
 /*////////////////////////////////////////////////////////*/
 
 .convenios_internacionales_container{
     width: 90%;
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -48,6 +43,53 @@
     text-align: center;
     padding: 0 0 10px 0;
     text-transform: uppercase;
+}
+
+/*----------------------------------------------------------------------------*/
+
+#contenedor_global_convenios_nacionales{
+    width: 100%;
+    padding: 30px 0;
+    margin-bottom: 50px;
+}
+
+.contenedor_global_nacionales{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.flecha_convenio{
+    width: 30px;
+    cursor: pointer;
+}
+
+.contenedor_slider_nacionales{
+    width: 85%;
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.convenios_nacionales{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    transition: all 0.5s ease;
+}
+
+.conjunto_convenios{
+    min-width: 100%;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.conjunto_convenios img{
+    width: 13%;
 }
 
 /*///////////////////////////////////////////////////////////////////////////////////////
@@ -92,6 +134,17 @@
         margin-bottom: 0px;
         padding: 0 0 5px 0;
     }
+
+    /*----------------------------------------------*/
+
+    .conjunto_convenios{
+        flex-wrap: wrap;
+    }
+
+    .conjunto_convenios img{
+        width: 45%;
+    }
+
 
 
 }
