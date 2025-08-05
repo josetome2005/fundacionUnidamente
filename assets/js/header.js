@@ -26,7 +26,6 @@ link_header.forEach(link => {
 
     link.addEventListener("click", function(){
 
-        alert("Click hecho");
         menu.style.marginLeft = "-100%";
         body.style.maxHeight = "auto";
         body.style.overflowY = "scroll";
