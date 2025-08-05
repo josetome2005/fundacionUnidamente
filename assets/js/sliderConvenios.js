@@ -1,27 +1,45 @@
 var contenedor_convenios = document.querySelector(".convenios_nacionales");
 
+var longitud_pantalla = window.innerWidth;
+
+console.log(longitud_pantalla);
+
 function agregarConvenios(){
 
-    for(i = 0; i < 4; i ++){
+    var limiteDeConjuntos = 4;
+
+    if(longitud_pantalla < 700){
+        limiteDeConjuntos = 6;
+    }
+
+    console.log("Limite Conjunto: " + limiteDeConjuntos);
+
+    for(i = 0; i < limiteDeConjuntos; i ++){
 
         var conjunto = document.createElement("div");
         conjunto.classList.add("conjunto_convenios", "conjunto_convenios"+i+1);
 
+        var limiteCantidadImagenesPorConjunto = 6;
 
-        for(j = 0; j < 6; j++){
+        if(longitud_pantalla < 700){
+            limiteCantidadImagenesPorConjunto = 4;
+        }
 
-            if(j + 6*i + 1 <= 22){
+        console.log("Limite imagenes: " + limiteCantidadImagenesPorConjunto);
+
+        
+        for(j = 0; j < limiteCantidadImagenesPorConjunto; j++){
+
+            if(j + limiteCantidadImagenesPorConjunto*i + 1 <= 22){
                 var img = document.createElement("img");
-                img.src = "assets/img/convenios/nacionales/conv"+ (j + 6*i + 1) + ".png" ;
+                img.src = "assets/img/convenios/nacionales/conv"+ (j + limiteCantidadImagenesPorConjunto*i + 1) + ".png" ;
 
                 conjunto.appendChild(img);
             }
 
         }
 
-        contenedor_convenios.appendChild(conjunto);
-
-        
+        contenedor_convenios.appendChild(conjunto); 
 
     }
 
@@ -38,9 +56,17 @@ var contenedor_convenios = document.querySelector(".convenios_nacionales");
 
 var pagina = 0;
 
+var maximaPagina = 3;
+var minimaPagina = 0;
+
+if(longitud_pantalla < 700){
+    maximaPagina = 5;
+}
+
+
 flecha_adelante.addEventListener("click", function(){
 
-    if(pagina == 3){
+    if(pagina == maximaPagina){
         contenedor_convenios.style.marginLeft = "0%";
         pagina = 0;
 

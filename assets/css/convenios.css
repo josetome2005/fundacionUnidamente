@@ -136,6 +136,13 @@
     }
 
     /*----------------------------------------------*/
+    .flecha_convenio{
+        width: 20px;
+    }
+
+    .contenedor_slider_nacionales{
+        width: 75%;
+    }
 
     .conjunto_convenios{
         flex-wrap: wrap;

@@ -42,6 +42,7 @@
 }
 
 .contacto_item{
+    display: block;
     width: 30%;
     padding: 20px;
 }
@@ -130,7 +131,7 @@
     }
 
     .contacto_item{
-        width: 70%;
+        width: 90%;
         border: none;
         margin: 0 0 40px 0;
         padding: 0;
@@ -158,8 +159,7 @@
     }
 
     .contacto_item_2 .contacto_item_info{
-        font-size: 9px;
-        letter-spacing: 0.6px;
+        font-size: 12px;
     }
 
 
