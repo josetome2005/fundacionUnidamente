@@ -18,3 +18,20 @@ boton_menu.addEventListener("click", function(){
     abierto = !abierto;
 
 })
+
+
+var link_header = document.querySelectorAll(".header_nav_lista li");
+
+link_header.forEach(link => {
+
+    link.addEventListener("click", function(){
+
+        menu.style.marginLeft = "-100%";
+        body.style.maxHeight = "auto";
+        body.style.overflowY = "scroll";
+
+        abierto = false;
+
+    })
+
+})
