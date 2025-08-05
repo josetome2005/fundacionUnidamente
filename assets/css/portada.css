@@ -30,6 +30,11 @@
     letter-spacing: 4px;
     text-transform: uppercase;
 }
+
+.portada_titulo span{
+    font-family: "Poppins Bold";
+}
+
 .portada_titulo span span{
     color: var(--color-rosa);
 }

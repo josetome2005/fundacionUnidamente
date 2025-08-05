@@ -95,6 +95,58 @@
 @media (max-width: 700px) {
 
     .como_ayudar{
-        display: none;
+        padding: 70px 25px;
     }
+
+    .como_ayudar_titulo{
+        font-size: 22px;
+        letter-spacing: 1.1px;
+    }
+
+    .como_ayudar_subtitulo{
+        font-size: 12px;
+        letter-spacing: 0.6px;
+        margin-bottom: 35px;
+    }
+
+    .como_ayudar hr{
+        border: 1px solid #222222;
+        margin: 0 auto 15px auto;
+    }
+
+    .como_ayudar_containter{
+        display: block;
+    }
+
+    .como_ayudar_item{
+        display: block;
+        margin: 30px auto;
+        width: 130px;
+        height: 130px;
+        padding: 15px;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+
+    .como_ayudar_item img{
+        width: 55px;
+        margin: 0 auto 0 auto;
+    }
+
+    .como_ayudar_item span{
+        width: 100%;
+        font-size: 12px;
+        letter-spacing: 0.6px;
+    }
+
+    .como_ayudar a{
+        margin: 75px auto 0 auto;
+        width: 160px;
+        padding: 10px 0;
+        font-size: 12px;
+        letter-spacing: 0.6px;
+    }
+    
 }
