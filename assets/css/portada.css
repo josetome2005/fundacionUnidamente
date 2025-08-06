@@ -19,14 +19,14 @@
 /*/////////////////////////////////////////////////////////////////////////////////////////*/
 
 .portada_text_container{
-    width: 62%;
+    width: 65%;
     padding-top: 15px;
 }
 
 .portada_titulo{
-    font-family: "Poppins Bold";
+    font-family: "Poppins ExtraBold";
     font-size: 45px;
-    color: #333333;
+    color: #000000;
     letter-spacing: 4px;
     text-transform: uppercase;
 }
@@ -40,14 +40,13 @@
 }
 
 .portada_subtitulo1{
-    font-family: "Poppins ExtraLight";
+    font-family: "Poppins Medium";
     font-size: 34px;
-    color: #111;
+    color: #222;
     letter-spacing: 2.8px;
     margin-bottom: 32px;
 }
 .portada_subtitulo1 span{
-      font-family: "Poppins ExtraLight";
     color: var(--color-verde);
 }
 
@@ -101,7 +100,7 @@
     width: 34%;
     height: 75%;
     border-radius: 50px;
-    margin-right: 2%;
+    margin-right: 0;
     background-image: url("../img/imagen_portada.jpeg");
     background-position: center;
     background-size: cover;
@@ -130,19 +129,19 @@
     /*/////////////////////////////////////////////////////////////////////////////////////////*/
 
     .portada_text_container{
-        width: 90%;
+        width: 95%;
         margin: 0 auto;
     }
 
     .portada_titulo{
-        font-size: 35px;
+        font-size: 40px;
         letter-spacing: 2px;
         text-align: center;
         margin-bottom: 30px;
     }
 
     .portada_subtitulo1{
-        font-size: 25px;
+        font-size: 32px;
         text-align: center;
         letter-spacing: 1.3px;
         margin-bottom: 32px;
